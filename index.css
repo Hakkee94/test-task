@@ -73,13 +73,13 @@ li span {
 }
 
 .pdf-block button {
-    margin-top: 10px;
     border: none;
     outline: none;
     background-color: white;
     border-bottom: red 1px solid;
     color: red;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .pdf-block {
