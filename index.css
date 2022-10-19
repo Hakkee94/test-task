@@ -1,5 +1,6 @@
 body {
     padding: 50px;
+    color: #131718;
 }
 
 header {
@@ -10,6 +11,7 @@ header {
 .handler {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .info h2 {
@@ -36,7 +38,7 @@ li span {
 }
 
 ::marker {
-    color: red;
+    color: #EC1630;
     font-size: 1.2em;
 }
 
@@ -67,7 +69,7 @@ li span {
 
 .pdf-block h3 {
     text-transform: uppercase;
-    color: red;
+    color: #EC1630;
     margin: 0;
     font-weight: 900;
 }
@@ -76,8 +78,8 @@ li span {
     border: none;
     outline: none;
     background-color: white;
-    border-bottom: red 1px solid;
-    color: red;
+    border-bottom: #EC1630 1px solid;
+    color: #EC1630;
     cursor: pointer;
     margin-top: 20px;
 }
@@ -88,6 +90,7 @@ li span {
     padding: 10px;
     width: 70px;
     height: 90px;
+    position: relative;
 }
 
 .second-block .pdf-blocks .pdf-block {
@@ -102,7 +105,7 @@ li span {
 }
 
 .price h3 {
-    color: red;
+    color: #EC1630;
     font-size: 13px;
     padding-bottom: 30px;
 }
@@ -111,7 +114,7 @@ li span {
     height: 40px;
     text-transform: uppercase;
     border-radius: 10px;
-    background-color: red;
+    background-color: #EC1630;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -120,8 +123,36 @@ li span {
 .important-info {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    border: 1px solid #EC1630;
     padding: 10px;
     background-color: lightgray;
     margin-top: 50px;
+}
+
+.wrapper {
+    width: 34px;
+    position: absolute;
+    right: -16px;
+    top: -16px;
+}
+
+input[type=file]{
+    display: none;
+}
+
+.download {
+    color: #EC1630;
+    border-bottom: #EC1630 solid 1px;
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.download:hover {
+    border-bottom: 0;
+}
+
+.big {
+    font-size: 30px;
 }
